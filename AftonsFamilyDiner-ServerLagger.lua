@@ -7,6 +7,6 @@ game:GetService("ReplicatedStorage").NightmareFoxy.Base:FireServer(table.unpack(
     [1] = workspace[ServerBye],
     [2] = workspace[ServerBye].Humanoid,
 }))
-            end
-        end
 end)
+end
+end
