@@ -3,16 +3,12 @@ while true do
 for i,v in pairs(game:GetDescendants()) do
 if v:IsA("RemoteEvent") and v.Name == 'ChangeName' then
 v:FireServer(NameArgs)
-end
-end
-end 
-
-while true do
-    wait(0.2)
 local DescArgs = "Whatever u want"
 for i,v in pairs(game:GetDescendants()) do
 if v:IsA("RemoteEvent") and v.Name == 'ChangeDesc' then
 v:FireServer(DescArgs)
+end
+end
 end
 end
 end 
