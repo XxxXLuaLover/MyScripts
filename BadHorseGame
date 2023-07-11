@@ -1,14 +1,6 @@
 while true do
-    wait(0.2)
-for i,v in pairs(game:GetDescendants()) do
-if v:IsA("RemoteEvent") and v.Name == 'ChangeName' then
-v:FireServer(NameArgs)
-local DescArgs = "Whatever u want"
-for i,v in pairs(game:GetDescendants()) do
-if v:IsA("RemoteEvent") and v.Name == 'ChangeDesc' then
-v:FireServer(DescArgs)
+task.wait()
+print("TROLLEDLOLTROLLEDLOLTROLLEDLOL")
+wait(1)
+game.Players.LocalPlayer:Kick("PRIVATE SCRIPT NIGGER")
 end
-end
-end
-end
-end 
