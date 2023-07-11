@@ -1,6 +1,5 @@
 while true do
 task.wait()
 print("TROLLEDLOLTROLLEDLOLTROLLEDLOL")
-wait(1)
 game.Players.LocalPlayer:Kick("PRIVATE SCRIPT NIGGER")
 end
